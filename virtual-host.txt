@@ -1,0 +1,13 @@
+
+<VirtualHost *:80>
+    ServerName mvc.git
+    DocumentRoot /var/www/myMVC/public
+    SetEnv APPLICATION_ENV "development"
+    <Directory /var/www/myMVC/public>
+        DirectoryIndex index.php
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+
+

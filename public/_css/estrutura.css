@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+html, body {
+    height: 100%;
+    padding-top: 8px;
+}
+
+html { overflow-y: scroll; }
+html { overflow: -moz-scrollbars-vertical; }
+html { overflow-x: auto; }
+
+#tudo{
+	position: relative;
+	width:100%;
+	min-height: 100%;
+}
+
+#topo{
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:20;
+    height:70px;
+    background-color:#D3D3D3;
+    text-align: center;
+    border-bottom:5px solid #1A1143;
+}
+
+#conteudo{
+	padding:0px;
+    width: 100%;
+	min-height:auto;
+    margin-top: 50px;
+}
+
+#rodape{
+    bottom:0px;
+    width:100%;
+    position: absolute;
+    margin-top: 0px; 
+    height: 200px;
+    clear: both;
+}
+
+.background-rodape{
+    background:#000;    
+}
